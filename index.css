@@ -1,0 +1,51 @@
+body {
+    height: 800px;
+    background: repeating-linear-gradient(120deg, #333 20%, #888 40%);
+}
+
+/*
+    static (default): Utiliza el orden natural de los elementos html
+    relative: relativo a su posicion estatica
+    absolute: toma como referencia toda la pagina de forma absoluta (completa)
+    fixed
+    sticky
+*/
+
+
+div {
+    display: block;
+    background: red;
+    margin: 2px;
+}
+
+span {
+    display: inline-block;
+    background: blue;
+    width: 240px;
+}
+
+.container {
+    background: grey;
+    /* position: relative; */
+    height: 100px;
+}
+
+.box {
+    /* background: rgba(0, 0, 0, 0.9); */
+    background: green;
+    /* width: 240px; */
+
+    /* position: relative;
+    top: -3px;
+    left: -2px; */
+
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+
+
+    /** forma moderna **/
+    /* transform: translate(-2px, -3px); */
+}
